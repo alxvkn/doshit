@@ -28,7 +28,7 @@ function openTask(task, previousNode) {
 
     h1.innerText = task.content
 
-    h1.addEventListener('click', () => {
+    div.addEventListener('click', () => {
         renderTasksList(task.id)
     })
 
